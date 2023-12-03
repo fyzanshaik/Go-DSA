@@ -5,6 +5,11 @@ import (
 )
 
 func main() {
+	/*
+	Unlike arrays, slices are typed only by the elements they contain (not the number of elements). 
+	An uninitialized slice equals to nil and has length 0.
+	*/
+
 	// Declare an uninitialized slice
 	var s []string
 	fmt.Println("uninit:", s, s == nil, len(s) == 0)
@@ -34,12 +39,15 @@ func main() {
 	fmt.Println("cpy:", c)
 
 	// Create slices with different ranges
+	//Slices support a “slice” operator with the syntax slice[low:high] it excludes the end index.
 	l := s[2:5]
 	fmt.Println("sl1:", l)
 
+	//This slices up to (but excluding) s[5].
 	l = s[:5]
 	fmt.Println("sl2:", l)
-
+	
+	//And this slices up from (and including) s[2].
 	l = s[2:]
 	fmt.Println("sl3:", l)
 
