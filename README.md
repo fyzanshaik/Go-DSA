@@ -36,6 +36,11 @@ go build
 ```
 ./book-ticket
 ```
+
+# Run in one command
+```
+go run filename.go
+```
 Directory Structure
 book-ticket/: Contains the book-ticket app.
 [go-practice-repo]/: Contains basic Go language examples.
