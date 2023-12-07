@@ -14,7 +14,7 @@ Navigate to the specific folder for each Go basic example and use the following 
 
 ```bash
 # Change to the desired directory (replace [EXAMPLE_FOLDER] with the actual folder name)
-cd [EXAMPLE_FOLDER]
+cd go-practice-repo
 ```
 # Run the example using go run
 ```
