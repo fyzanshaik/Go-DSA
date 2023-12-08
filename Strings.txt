@@ -1,0 +1,7 @@
+length := len(string)
+
+"strings" package
+
+.join : joins two strings
+
+substring : string[startingIndex:endingIndex] the endingIndex excluded such as [0:5] 0 1 2 3 4
